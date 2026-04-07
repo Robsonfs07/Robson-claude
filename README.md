@@ -60,6 +60,7 @@ O Claude vai te fazer algumas perguntas e configurar o sistema pro seu negócio.
 - `/analisar-dados` — analisa um arquivo e gera resumo executivo com insights
 - `/roteiro-post` — transforma ideia ou texto em roteiro de post ou vídeo
 - `/email-profissional` — rascunha email profissional a partir de contexto livre
+- `/atualizar` — varre o projeto e atualiza os arquivos de contexto que ficaram desatualizados
 
 **Pastas geradas pelo `/setup`:**
 - `_contexto/` — contexto do seu negócio e preferências

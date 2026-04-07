@@ -177,6 +177,15 @@ Apresentar as opções de forma natural, não como lista formal:
 - Preencher o `marca/design-guide.md` com campos em branco e orientações pra preencher depois
 - Mencionar brevemente: "Sem problema — você preenche quando tiver. O Claude vai usar um visual neutro até lá."
 
+**Logo (perguntar em todos os casos acima):**
+
+Após resolver cores e estilo, perguntar:
+
+> "Tem o logo da marca em PNG ou SVG? Se tiver, joga na pasta `marca/` e me diz o nome do arquivo. Se tiver uma versão pra fundo escuro e outra pra fundo claro, manda as duas."
+
+- Se o usuário fornecer: preencher a seção **Logo** do `marca/design-guide.md` com o caminho do arquivo e a variação (se houver)
+- Se não tiver logo: deixar a seção Logo em branco no design-guide
+
 ### Pergunta 7
 "Como você prefere que o Claude escreva? O que mais incomoda em textos gerados por IA?"
 
@@ -285,6 +294,31 @@ Se sim, identificar onde faz mais sentido salvar:
 Salvar com uma linha nova clara, sem reformatar o arquivo inteiro. Confirmar o que foi salvo mostrando a linha adicionada.
 
 Não perguntar se a correção for óbvia de contexto imediato (ex: "na verdade o arquivo se chama X"). Só perguntar quando a informação tiver valor duradouro.
+
+---
+
+## Manter contexto atualizado
+
+Ao terminar uma tarefa que mudou algo relevante no projeto (novo cliente, nova skill, mudança de foco, novo processo, ferramenta instalada, estrutura de pastas alterada), perguntar:
+
+> "Isso mudou algo no teu contexto. Quer que eu atualize os arquivos de memória?"
+
+Se sim, identificar o que precisa atualizar:
+
+- **Novo cliente, serviço, ferramenta, equipe** → `_contexto/empresa.md`
+- **Mudança de prioridade ou foco** → `_contexto/estrategia.md`
+- **Correção de tom ou estilo** → `_contexto/preferencias.md`
+- **Nova pasta, regra de organização, skill criada** → `CLAUDE.md`
+- **Mudança visual (cores, fontes, logo)** → `marca/design-guide.md`
+
+Mostrar o que vai mudar antes de salvar. Não reformatar o arquivo inteiro, só adicionar ou editar a linha relevante.
+
+**Quando NÃO perguntar:**
+- Tarefas pontuais que não mudam o contexto (ex: escrever um email, criar um post avulso)
+- Perguntas simples ou conversas sem ação
+- Mudanças que já foram salvas pelo bloco "Aprender com correções"
+
+**Dica:** se o usuário não sabe se algo mudou, rodar `/atualizar` faz uma varredura completa.
 
 ---
 
