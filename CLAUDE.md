@@ -1,14 +1,51 @@
-# Claude Code OS — Kit Ratos de IA
+# MIGO FLOW — Claude Code OS
 
-Este repositório é o kit de boas-vindas do curso Claude Code OS.
+## O que é esse workspace
 
-Se você acabou de clonar esse repositório:
-1. Rode `/setup` pra configurar o sistema pro seu negócio (uns 5 minutos)
-2. Depois rode `/mapear` pra criar skills personalizadas pro que você faz no dia a dia
+Workspace principal do Robson. Aqui é onde o SaaS é desenvolvido, o conteúdo pras redes é produzido e tudo que envolve escalar a MIGO FLOW acontece.
+
+**Estrutura de pastas:**
+- `_contexto/` — memória do sistema (não apagar)
+- `conteudo/` — produção de conteúdo por canal e formato
+- `saas/` — código e documentação dos micro SaaS
+- `projetos/` — projetos internos (loja, curso, páginas de venda)
+- `marca/` — logo, design-guide e identidade visual
+- `dados/` — arquivos pra análise (CSV, PDF, prints)
+- `templates/` — modelos reutilizáveis e skills prontas
+- `tarefas.md` — lista de tarefas corrente
+
+## Sobre o negócio
+
+Robson desenvolve micro SaaS pra negócios locais e cria conteúdo pra escalar esses produtos nas redes. Toca tudo solo. Tem uma loja física de moda fitness com a esposa e está planejando um curso pra ensinar outros lojistas a vender moda fitness.
+
+## O que mais fazemos aqui
+
+- Desenvolvimento dos micro SaaS (PDV híbrido com fidelização via WhatsApp, catálogo digital)
+- Produção de conteúdo pra Instagram, TikTok e YouTube
+- Criação de landing pages e páginas de vendas
+- Código, relatórios e documentação dos produtos
+
+## Clientes e contexto
+
+Uso próprio por enquanto. Os produtos são B2B local (lojistas, comerciantes). Sem clientes externos ainda.
+
+## Tom de voz
+
+Informal, direto e didático — sem ser chato. Usa analogias e storytelling. Sem linguagem corporativa, sem frases de efeito vazias, sem bullet points desnecessários.
+
+## Ferramentas conectadas
+
+- [x] Claude Code
+- [x] VS Code
+- [ ] Meta Ads MCP
+- [ ] Gmail MCP
+- [ ] Google Calendar MCP
+- [ ] Playwright (renderizar HTML em PNG)
+- [ ] Post for Me (publicar no Instagram/TikTok)
+
+*(Marcar conforme for instalando)*
 
 ---
-
-<!-- Este arquivo será atualizado pelo /setup com o contexto do seu negócio. -->
 
 ## Contexto do negócio
 
